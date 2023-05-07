@@ -1,0 +1,135 @@
+<head>
+    <meta charset="UTF-8">
+    <meta hhtp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="bbox">
+        <div class="header">
+            <p name="calculator-bmi">Kalkulator BMI</p>
+        </div>
+
+        <div class="article1">
+            <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk hitung sekarang dengan kalkulator BMI.
+            </p>
+        </div>
+
+        <div class="calculator">
+            <div class="gender">
+                <label form="gender">Jenis Kelamin</label>
+                <br>
+                <br>
+                <input type="radio" name="radio" id="m" required="true">
+                <label form="gender">Laki-laki</label>
+                <span class="checkmark"></span>
+
+                <input type="radio" name="radio" id="f" required="true">
+                <label form="gender">Perempuan</label>
+                <span class="checkmark"></span>
+
+            </div>
+            
+            <div class="form-group">
+                <label form="age">Usia (Tahun)</label>
+                <br>
+                <div class="input"><i class="fa-solid fa-pencil"></i>
+                    <input type="text" class="text-input" id="age" autocomplete="off" required="true"/>
+                </div>
+
+            </div>
+        
+            <div class="form-group">
+                <label form="height">Tinggi Badan (cm)</label>
+                <br>
+                <div class="input"><i class="fa-solid fa-pencil"></i>
+                    <input type="text" class="text-input" id="height" autocomplete="off" required="true">
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <label form="weight">Berat Badan (kg)</label>
+                <br>
+                <div class="input"><i class="fa-solid fa-pencil"></i>
+                    <input type="text" class="text-input" id="weight" autocomplete="off" required="true">
+                </div>
+            </div>
+            <br>
+
+            <div class="button-group">
+                    <button type="button" id="calculate">Hitung BMI</button>
+                    <button type="button" id="reset">Reset</button>
+            </div>
+
+        </div>
+
+        <div class="article2">
+            <p class="heada2">Keunggulan fitur</p>
+            <ol>
+                <li>
+                    Menghitung berat badan
+                </li>
+                <li>
+                    Menentukan kategori berat badan ideal atau tidak
+                </li>
+                <li>
+                    Mempersiapkan program penurunan berat badan
+                </li>
+            </ol>
+            <p>
+                Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembaca BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan yang memenuhi syarat seperti dokter.
+            </p>
+            <p>
+                Kalkulator akan memberikan Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = kg/m<sup>2</sup>.
+            </p>
+        </div>
+
+        <div class="pop">
+            <p class="headpop"></p>
+            
+            <div class="resultbox">
+                <p class="result"></p>
+                <p class="bmi"></p>
+                <p class="result2"></p>
+                <div class="downloadbmi">
+                </div>
+            </div>
+
+            <p class="statement"></p>
+            <p class="explanation"></p>
+            <p class="advice"></p>
+            
+            <div class="consult-group">
+                
+            </div>
+
+            <p class="disclaimer"></p>
+
+            <div class="deseasebox">
+                <p class="diag"></p>
+                <ul class="desease">
+
+                </ul>
+                <br>
+                <div class="consult-group2">
+                    
+                </div>
+            </div>
+
+            <p class="apldownload"></p>
+            <div class="apldownloadbutton">
+            </div>
+            <br>   
+            <footer class="creator">
+                <p>by: Gunawan Rahmadi(2023)</p>
+            </footer>
+
+            <script src="index.js"></script>
+        </div>
+    </div>
+
+
+</body>

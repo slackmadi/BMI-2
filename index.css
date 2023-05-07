@@ -1,0 +1,165 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(https://images.newscientist.com/wp-content/uploads/2020/05/22112120/sagdig_opo0431b_web.jpg?width=900);
+    
+}
+.bbox {
+    width: 500px;
+    background: #fafafa;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.5);
+    padding: 10px;
+  }
+.header {
+    text-align: center;
+    font-weight: bold;
+    font-size:30px;
+    background-color: rgb(242,243,245);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.article1 {
+    text-align: justify;
+    padding: 5px;
+
+}
+.calculator {
+    background-color:rgb(242,243,245);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.gender {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 5px;
+
+}
+.input {
+    border: solid 1px gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+i {
+    margin: 10px;
+}
+.text-input {
+    width: 100%;
+}
+.button-group{
+    text-align: center;
+}
+button {
+    margin: 2px;
+    border: none;
+    background-color: rgb(92,192,222);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#reset {
+   margin: 0; 
+   color: black;
+   font-weight: 700;
+   background-color: white;
+   padding: 10px;
+   border-radius: 5px;
+}
+.article2 {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 5px;
+}
+.heada2{
+    font-size: 25px;
+}
+ol {
+    margin-top: 0;
+    padding-left: 0; 
+    list-style-position:inside;
+}
+
+
+
+.pop {
+    text-align: justify;
+}
+.headpop{
+    text-align: justify;
+    font-size: 30px;
+}
+.resultbox {
+    background-color: rgb(242,243,245);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.result {
+    font-size: 25px;
+}
+.bmi {
+    font-size: 40px;
+}
+.explanation {
+    margin-bottom: 0;
+}
+.advice {
+    margin-top: 0;
+}
+.consult-group {
+    text-align: center;
+}
+.deseasebox {
+    background-color: rgb(242,243,245);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.diag {
+    font-size: large;
+}
+.desease {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.apldownload {
+    text-align: center;
+    font-size: large;
+}
+.apldownloadbutton {
+    text-align: center;
+}
+
+a {
+    margin: 2px;
+}
+
+.creator {
+    text-align: center;
+    background-color: rgb(242,243,245);
+    padding: 1px;
+    border-radius: 10px;
+}
+
